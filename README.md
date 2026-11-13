@@ -1,14 +1,16 @@
 # CS3SY26_ProjectProposal by Aline Teresa Mendoza from CS Unit of PSHS
 
 
-## Project Proposal Template:
-### Project Title or Name of the Application	:
+## Project Proposal Template: 
+### Project Title or Name of the Application	: Cite Right
 ### Section			   	      : Lithium
 ### Group Members			    : Mangalindan, Lacanilao, Bodiongan
 ### Date (Proposal Date)  : Nov 5, 2026
 ### Project Description:
 
 - A brief summary of the project description and the need for it.
+SUMMARY:
+As students who constantly refer to websites and material for learning, citation is very important as to avoid getting plagiarized. However, citation can, at times, be time consuming and be alloted more time than necessary. To fix this, our group is developing "Cite Right", a program meant for students to minimize the time for citing, and maximize the time for actually doing the project. Moreover, students use AI to cite their sources. However, AI is limited, it cannot always access every piece of material, it also opens up windows of error that can be minimized through our program.
 
 - Describes system components, features, and expected outputs clearly and logically. NOTE: Clearly described the elements(classes), their attributes and methods and how they will interact with each other.
 
