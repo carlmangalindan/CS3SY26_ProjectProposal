@@ -14,6 +14,10 @@ As students who constantly refer to websites and material for learning, citation
   
 Elements, Attributes, Methods:
 
+Elements/Classes:
+Media
+
+
 Target Demographic:
 
 Cite Right is a program made by students, for students. We've experienced first hand how citation eats time, and through this we realized that this could be fixed.
