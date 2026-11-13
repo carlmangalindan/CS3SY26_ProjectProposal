@@ -4,8 +4,8 @@
 ## Project Proposal Template:
 cvbbbc
 ### Project Title or Name of the Application	:
-### Section			   	      :
-### Group Members			    :
+### Section			   	      : Lithium
+### Group Members			    : Mangalindan, Lacanilao, Bodiongan
 ### Date (Proposal Date)  : Nov 5, 2026
 fdfhdfhfshsdhfhhtrthdfh
 ### Project Description:
