@@ -3,7 +3,7 @@
 ### Project Title or Name of the Application	: Cite Right
 ### Section			   	      : Lithium
 ### Group Members			    : Mangalindan, Lacanilao, Bodiongan
-### Date (Proposal Date)  : Nov 5, 2026
+### Date (Proposal Date)  : Nov 14, 2026
 ### Project Description:
 
 SUMMARY:
@@ -22,9 +22,7 @@ Target Demographic:
 
 Cite Right is a program made by students, for students. We've experienced first hand how citation eats time, and through this we realized that this could be fixed.
 
-**Sample class Diagram from https://static.visual-paradigm.com/web/images/tutorials/class-diagram-tutorial/01-class-diagram-example.png:**
-
-![Sample Diagram](https://static.visual-paradigm.com/web/images/tutorials/class-diagram-tutorial/01-class-diagram-example.png)
+Put UML diagram here as in like replace these words with it
 
 ### Goals:
 
