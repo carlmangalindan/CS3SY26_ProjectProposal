@@ -12,11 +12,13 @@ As students who constantly refer to websites and material for learning, citation
 
 - Describes system components, features, and expected outputs clearly and logically. NOTE: Clearly described the elements(classes), their attributes and methods and how they will interact with each other.
   
-Elements, Attributes, Methods:
+### Elements, Attributes, Methods:
 
-Elements/Classes:
-Media
+Class: Media
+Attributes: author, year_published, title
+Methods: cite_ref_list(),  cite_in_text()
 
+Subclass
 
 Target Demographic:
 
