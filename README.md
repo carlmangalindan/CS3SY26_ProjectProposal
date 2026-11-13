@@ -6,20 +6,17 @@
 ### Date (Proposal Date)  : Nov 5, 2026
 ### Project Description:
 
-- SUMMARY:
+SUMMARY:
 
 As students who constantly refer to websites and material for learning, citation is very important as to avoid getting plagiarized. However, citation can, at times, be time consuming and be alloted more time than necessary. To fix this, our group is developing "Cite Right", a program meant for students to minimize the time for citing, and maximize the time for actually doing the project. It does this by gathering data and organizing it to fit the APA 7th style of citation. Moreover, students use AI to cite their sources. However, AI is limited, it cannot always access every piece of material, it also opens up windows of error that can be minimized through our program.
 
 - Describes system components, features, and expected outputs clearly and logically. NOTE: Clearly described the elements(classes), their attributes and methods and how they will interact with each other.
-
+  
 Elements, Attributes, Methods:
 
-- Include the description as well of your target demographics as the user of your application. 
-
 Target Demographic:
-Cite Right is a program made by students, for students. We've experienced first hand how citation eats time, and through this we realized that this could be fixed.
 
-- The description is then followed by the class diagram, depicting clearly what was described.
+Cite Right is a program made by students, for students. We've experienced first hand how citation eats time, and through this we realized that this could be fixed.
 
 **Sample class Diagram from https://static.visual-paradigm.com/web/images/tutorials/class-diagram-tutorial/01-class-diagram-example.png:**
 
