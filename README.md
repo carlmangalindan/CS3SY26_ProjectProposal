@@ -52,7 +52,7 @@ Relationship: Aggregation relationship with ReferenceListCitation(Media)
 
 `-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
 
-Class: DigitalMedia(Media)
+Subclass: DigitalMedia(Media)
 
 Attributes: Inherited from Media along with
 
@@ -62,7 +62,7 @@ Relationship:
 
 `-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
 
-Class: Webpage(DigitalMedia)
+Subclass: Webpage(DigitalMedia)
 
 Attributes: Inherited from DigitalMedia along with
 
@@ -72,7 +72,7 @@ Relationship:
 
 `-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
 
-Class: JournalArticle(DigitalMedia)
+Subclass: JournalArticle(DigitalMedia)
 
 Attributes: Inherited from DigitalMedia along with
 
@@ -82,7 +82,7 @@ Relationship:
 
 `-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
 
-Class: Book(Media)
+Subclass: Book(Media)
 
 Attributes: Inherited from Media along with
 
@@ -92,7 +92,7 @@ Relationship:
 
 `-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
 
-Class: NewspaperArticle(Media)
+Subclass: NewspaperArticle(Media)
 
 Attributes: Inherited from Media along with
 
