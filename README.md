@@ -24,7 +24,7 @@
 
 Describe the long term outcomes of your project followed by a couple of objectives to meet the goals stated in this paragraph
 
-- Objective 1:<img width="1080" height="1920" alt="903836104_1697019895476126_3003403444687575105_n" src="https://github.com/user-attachments/assets/f9845b5b-8f9a-492d-afa9-d17734af6e24" />
+- Objective 1:
 
 - Objective 2:
 - Objective n:
