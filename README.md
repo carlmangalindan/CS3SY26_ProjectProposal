@@ -10,7 +10,7 @@ SUMMARY:
 
 As students who constantly refer to websites and material for learning, citation is very important as to avoid getting plagiarized. However, citation can, at times, be time consuming and be alloted more time than necessary. To fix this, our group is developing "Cite Right", a program meant for students to minimize the time for citing, and maximize the time for actually doing the project. It does this by gathering data and organizing it to fit the APA 7th style of citation. Moreover, students use AI to cite their sources. However, AI is limited, it cannot always access every piece of material, it also opens up windows of error that can be minimized through our program.
 
-- Describes system components, features, and expected outputs clearly and logically. NOTE: Clearly described the elements(classes), their attributes and methods and how they will interact with each other.
+`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
   
 ### Elements, Attributes, Methods:
 
@@ -44,11 +44,11 @@ Relationship: Composition relationship with Media.
 
 Class: ReferenceList
 
-Attributes: Inherited from Media
+Attributes: 
 
-Methods: Inherited from Media
+Methods: 
 
-Relationship: Composition relationship with Media.
+Relationship: Aggregation relationship with ReferenceListCitation(Media)
 
 `-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
 
@@ -59,6 +59,48 @@ Attributes: Inherited from Media along with
 Methods:
 
 Relationship:
+
+`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
+
+Class: Webpage(DigitalMedia)
+
+Attributes: Inherited from DigitalMedia along with
+
+Methods:
+
+Relationship:
+
+`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
+
+Class: JournalArticle(DigitalMedia)
+
+Attributes: Inherited from DigitalMedia along with
+
+Methods:
+
+Relationship:
+
+`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
+
+Class: Book(Media)
+
+Attributes: Inherited from Media along with
+
+Methods:
+
+Relationship:
+
+`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
+
+Class: NewspaperArticle(Media)
+
+Attributes: Inherited from Media along with
+
+Methods:
+
+Relationship:
+
+`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
 
 Target Demographic:
 
