@@ -28,6 +28,8 @@ Attributes: Inherited from Media
 
 Methods: Inherited from Media
 
+Relationship: Composition relation ship with Media.
+
 `-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
 
 Subclass: ReferenceListCitation(Media)
@@ -36,13 +38,33 @@ Attributes: Inherited from Media
 
 Methods: Inherited from Media
 
+Relationship: Composition relationship with Media.
+
 `-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
+
+Class: ReferenceList
+
+Attributes: Inherited from Media
+
+Methods: Inherited from Media
+
+Relationship: Composition relationship with Media.
+
+`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
+
+Class: DigitalMedia(Media)
+
+Attributes: Inherited from Media along with
+
+Methods:
+
+Relationship:
 
 Target Demographic:
 
 Cite Right is a program made by students, for students. We've experienced first hand how citation eats time, and through this we realized that this could be fixed.
 
-Put UML diagram here as in like replace these words with it
+### Put UML diagram here as in like replace these words with it
 
 ### Goals:
 
