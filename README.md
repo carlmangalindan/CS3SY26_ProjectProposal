@@ -24,7 +24,11 @@ Cite Right is a program made by students, for students. We've experienced first 
 
 ### Goals:
 
-Describe the long term outcomes of your project followed by a couple of objectives to meet the goals stated in this paragraph
+Long Term Outcomes:
+
+To have easier write up making and better and more organized time management.
+
+Objectives:
 
 - Objective 1: To be able to make write ups and projects easier to handle.
 - Objective 2: For the program to be used frequently.
