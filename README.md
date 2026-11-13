@@ -15,10 +15,22 @@ As students who constantly refer to websites and material for learning, citation
 ### Elements, Attributes, Methods:
 
 Class: Media
+
 Attributes: author, year_published, title
+
 Methods: cite_ref_list(),  cite_in_text()
 
-Subclass
+Subclass: IntextCitation(Media)
+
+Attributes: Inherited from Media
+
+Methods: Inherited from Media
+
+Subclass: ReferenceListCitation(Media)
+
+Attributes: Inherited from Media
+
+Methods: Inherited from Media
 
 Target Demographic:
 
