@@ -19,7 +19,7 @@ Class: Media
 Attributes: author, year_published, title
 
 Methods: cite_ref_list(),  cite_in_text()
-
+`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
 Subclass: IntextCitation(Media)
 
 Attributes: Inherited from Media
