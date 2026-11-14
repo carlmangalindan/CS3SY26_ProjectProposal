@@ -24,35 +24,35 @@ Methods: cite_in_text(), which would follow a single format involving authors an
 
 Class: ReferenceList
 
-**ReferenceList is the class that functions to store the user's sources and print the citations under each list.**
-Attributes: name, reflist. At first, reflist is empty, but to be appended into it are Source objects that would have been instantiated already.
-Methods: add_source() simply appends a Source object into reflist. print_bibliography() runs through reflist and prints each object's corresponding citation using the cite_ref_list() method of Source.
-Relationship: Each ReferenceList object is an aggregation of one or more Source objects.
+**ReferenceList is the class that functions to store the user's sources and print the citations under each list.**\
+Attributes: name, reflist. At first, reflist is empty, but to be appended into it are Source objects that would have been instantiated already.\
+Methods: add_source() simply appends a Source object into reflist. print_bibliography() runs through reflist and prints each object's corresponding citation using the cite_ref_list() method of Source.\
+Relationship: Each ReferenceList object is an aggregation of one or more Source objects.\
 
 `-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
 
 Subclasses: Book(Source), NewspaperArticle(Source)
 
-These are both non-digital (or print) media, and corresponding subclasses were directly inherited from Source class.
-Attributes: Aside from the attributes in the parent class Source, Book(Source) has the additional attribute of publisher, and NewspaperArticle(Source) has the additional attributes of date_published and newspaper. These are the additional required information in APA 7th edition.
+**These are both non-digital (or print) media, and corresponding subclasses were directly inherited from Source class.**\
+Attributes: Aside from the attributes in the parent class Source, Book(Source) has the additional attribute of publisher, and NewspaperArticle(Source) has the additional attributes of date_published and newspaper. These are the additional required information in APA 7th edition.\
 Methods: cite_ref_list() overrides the empty version of this method in the parent class. For each of these subclasses or types of sources, the method cite_ref_list() simply returns the corresponding way to cite it in APA 7th edition.
-Relationship: Inherited from Source along with DigitalMedia(Source)
+Relationship: Inherited from Source along with DigitalMedia(Source)\
 
 `-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
 
 Subclass: DigitalMedia(Source)
 
-**DigitalMedia(Source) inherits from Source, and it also acts as the parent class of Webpage(DigitalMedia) and JournalArticle(DigitalMedia).**
-Attributes: url (aside from attributes in its superclasses and subclasses)
-Methods: cite_ref_list() which still doesn't do anything as of now.
+**DigitalMedia(Source) inherits from Source, and it also acts as the parent class of Webpage(DigitalMedia) and JournalArticle(DigitalMedia).**\
+Attributes: url (aside from attributes in its superclasses and subclasses)\
+Methods: cite_ref_list() which still doesn't do anything as of now.\
 
 `-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
 
-Subclass: Webpage(DigitalMedia), JournalArticle(DigitalMedia)
+Subclasses: Webpage(DigitalMedia), JournalArticle(DigitalMedia)
 
-**Since both of these are digital media, they were both inherited from DigitalMedia(Source).**
-Attributes: additional date_published and website_name attributes are included in Webpage(DigitalMedia), while periodical_name is needed for JournalArticle(DigitalMedia). 
-Methods: cite_ref_list, which basically has the same role as the same method in Book(Source) and NewspaperArticle(Source).
+**Since both of these are digital media, they were both inherited from DigitalMedia(Source).**\
+Attributes: additional date_published and website_name attributes are included in Webpage(DigitalMedia), while periodical_name is needed for JournalArticle(DigitalMedia).\
+Methods: cite_ref_list, which basically has the same role as the same method in Book(Source) and NewspaperArticle(Source).\
 
 `-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-
 
